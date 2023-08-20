@@ -1,0 +1,101 @@
+/* Reset de Estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos Generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contenedor {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de Encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+#inicio img {
+  max-width: 100%;
+  height: 500px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10pxgi;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Estilos de Secciones */
+.inicio {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.biografia, .proyectos, .contacto {
+  padding: 80px 0;
+}
+
+.biografia {
+  background-color: #f2f2f2; /* Cambia el valor al color que desees */
+  padding: 80px 0;
+}
+
+.contacto {
+  background-color: #f2f2f2; /* Cambia el valor al color que desees */
+}
+
+/* Estilos de Títulos de Secciones */
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Estilos de Enlaces */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+/* Estilos de Pie de Página */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin-bottom: 10px;
+  }
+}
