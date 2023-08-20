@@ -67,6 +67,32 @@ header nav ul li a {
 .contacto {
   background-color: #f2f2f2; /* Cambia el valor al color que desees */
 }
+footer {
+  color: white;
+}
+footer ul
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding: 20px 0;
+  
+  text-align: center;
+}
+
+footer ul li
+{
+  text-decoration: none;
+  color: white;
+  display: inline;
+  margin: 10px;
+}
+
+footer ul li a
+{
+  color: white;
+}
+
 
 /* Estilos de Títulos de Secciones */
 h2 {
@@ -85,7 +111,7 @@ footer {
   text-align: center;
   padding: 20px 0;
   background-color: #333;
-  color: #fff;
+  
 }
 
 /* Estilos Responsivos */
